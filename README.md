@@ -224,3 +224,25 @@ Onneksi peli olikin loppujen lopuksi vain 4000 riviä koodia, ja kahden ohjelmoi
 
 * Jonah Ahvonen
 * Matti Jokitulppo
+
+## Lisenssijuttuja
+
+Vastuuvapauslauseke: Kaikki lainatut resurssit on otettu vain opetuskäyttöä varten.
+
+* Ohjelmointi: Jonah Ahvonen & Matti Jokitulppo.
+* SFML multimedia library: Laurent Gomila (sfml-dev.org).
+* Taustamusiikki: NES Silver Surfer (c) NINTENDO / Software Creations / Arcadia Systems.
+* Ääniefektit: SFXR.
+* Tile texturet: opengameart.org.
+* Pelaajasprite: Dushan Chaciej | ANtY (everyday-im-drawing.blogspot.fi).
+* Lava shader: glsl.heroku.com GLSL Sandbox.
+* Palomiesko naama: (c) M. Mieskolainen.
+* 04b.ttf fontti: dafont.com.
+* Water droplet sprite: rock1111100 (piq.codeus.net).
+* C++ md5 algoritmi: http://www.zedwood.com/article/cpp-md5-function
+* C++ IniReader ja IniWriter: http://www.codeproject.com/Articles/10809/A-Small-Class-to-Read-INI-File
+
+## Muuta
+
+Kiitos testaajille!
+
