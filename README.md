@@ -158,14 +158,14 @@ Softwareprojectin highscoret tallennetaan HTTP POST-requestilla web-palvelimelle
 
 Kyseisen sivuston voi löytää esimerkiksi tästä linkistä.
 
-![](https://raw.githubusercontent.com/ahvonenj/Softwareproject/master/github_resources/highscores.JPG)
+![](https://github.com/ahvonenj/Softwareproject/blob/master/github_resources/highscores.JPG?raw=true)
 
 ### 7.3 Moninpeli
 
 Moninpeli on viimeisimpiä lisäyksiä Softwareprojektiin.
 Moninpelissä peliin lisätään toinen pelaaja, jota on mahdollista ohjata esimerkiksi xbox-ohjaimella.
 
-![](https://raw.githubusercontent.com/ahvonenj/Softwareproject/master/github_resources/multiplayer.JPG)
+![](https://github.com/ahvonenj/Softwareproject/blob/master/github_resources/multiplayer.JPG?raw=true)
 
 ## 8. PHP:n käyttö
 
@@ -181,7 +181,7 @@ Mikäli Softwareproject.exe on vanhentunut sille lähetetään latauslinkki uusi
 
 ## 9. Luokkakaavio
 
-![](https://raw.githubusercontent.com/ahvonenj/Softwareproject/master/github_resources/luokkakaavio.png)
+![](https://github.com/ahvonenj/Softwareproject/blob/master/github_resources/luokkakaavio.png?raw=true)
 
 ## 10. Mainittavia bugeja / ongelmia
 
