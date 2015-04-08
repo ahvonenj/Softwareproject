@@ -39,7 +39,7 @@ Selkokielellä jos Hyvin suunniteltu on equivelantti Puoliksi tehdyn kanssa, nii
 
 Itse pelin pääluokka on Game.
 
-Game ottaa parametreikseen osoittimen piirtoikkunaan, sekä charin, jonka avulla Game tietää, pyöritetäänkö �täysinäistä� versiota, vai graafisesti karsittua muunnosta.
+Game ottaa parametreikseen osoittimen piirtoikkunaan, sekä charin, jonka avulla Game tietää, pyöritetäänkö täysinäistä versiota, vai graafisesti karsittua muunnosta.
 
 Teimme karsitun version siksi että koulun koneet eivät jaksaneet enää pyörittää peliä 60 FPS.
 
@@ -73,7 +73,7 @@ Run palauttaa kokonaisluvun, jonka avulla pystymme hyppimään eri tapahtumista 
 
 Tämä mahdollistaa helposti uusien kokonaisuuksien lisäämisen peliin periyttämällä ne scenestä, esimerkiksi creditsit tai moninpeli olisi suhteellisen helppo lisätä.
 
-Totta kai pelin eri tiloilla on muitakin samankaltaisuuksia kuin �Run�, esimerkiksi piirtofunktio ja tapahtumienkäsittely, mutta emme nähneet käytännön kannalta tarpeelliseksi periyttää näitä abstraktista luokasta.
+Totta kai pelin eri tiloilla on muitakin samankaltaisuuksia kuin Run esimerkiksi piirtofunktio ja tapahtumienkäsittely, mutta emme nähneet käytännön kannalta tarpeelliseksi periyttää näitä abstraktista luokasta.
 
 ### 4.4 Player
 
@@ -91,7 +91,7 @@ Kaikille Entityille yhteistä on lähinnä elinaikaan liittyvät muuttujat/metod
 
 Entityjä hallitaan puolestaan EntityManager-luokalla, joka on Entity-tyyppisen vektorin ympärille rakennettu wrapperi.
 
-Entitymanager huolehtii Entityjen lisäämisestä ja �kuolleiden� Entityjen pois siivoamisesta
+Entitymanager huolehtii Entityjen lisäämisestä ja kuolleiden Entityjen pois siivoamisesta
 
 ### 4.6 Score
 
