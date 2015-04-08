@@ -1,0 +1,93 @@
+@font-face
+{
+	font-family: b;
+	src: url('04b.ttf');
+}
+
+body
+{
+	width: 100%;
+	height: 100%;
+	font-family: b;
+	color: white;
+	background-image: url('lava.png');
+}
+
+#wrapper
+{
+	width: 800px;
+	height: 600px;
+	margin: 0 auto 0 auto;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	//background-color: #606060;
+	background-image: url('gnd.png');
+	overflow: hidden;
+	-webkit-box-shadow: 10px 10px 25px 1px rgba(20, 20, 20, 255);
+	box-shadow: 10px 10px 25px 1px rgba(20, 20, 20, 255);
+}
+
+h1.header
+{
+	padding-top: 10px;
+	text-decoration: underline;
+	text-shadow: 3px 2px 5px #000000;
+    filter: dropshadow(color=#000000, offx=3, offy=2);
+}
+
+table.scoretable
+{
+	width: 95%;
+	height: auto;
+	
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.9;
+	//border: 1px solid black;
+	-webkit-box-shadow: 0px 0px 25px 2px rgba(20, 20, 20, 255);
+	box-shadow: 0px 0px 25px 2px rgba(20, 20, 20, 255);
+}
+
+td
+{
+	//border: 1px solid black;
+}
+
+td.tdheader
+{
+	border-bottom: 1px solid white;
+	background-color: #FF7F00;
+}
+
+td.dark
+{
+	background-color: #C8C8C8;
+}
+
+td.light
+{
+	background-color: #909090;
+}
+
+td.firstscore
+{
+	color: #FFFF00;
+	background-color: #C8C8C8;
+}
+
+td.secondscore
+{
+	color: #E6E8FA;
+	background-color: #909090;
+}
+
+td.thirdscore
+{
+	color: #8C7853;
+	background-color: #C8C8C8;
+}
+
+img.miesko
+{
+	position: relative;
+}
