@@ -2,7 +2,7 @@
 
 JAMK / Olio ohjelmointi 2 lopputyö.
 
-## 1 Projektin kuvaus
+## 1. Projektin kuvaus
 
 Päätimme tehdä Olio-2 projektiksi pienimuotoisen pelin, jossa olisi tarkoitus selviytyä laavakentällä mahdollisimman kauan.
 
@@ -12,7 +12,7 @@ Pelaajan kuoltua ennemmin tai myöhemmin suoritus pisteytetään sammutettujen t
 
 Mukana pelissä olisi myös alkuvalikko, highscoret sekä mahdollisesti muita ominaisuuksia.
 
-## 2 Projektin ominaisuudet
+## 2. Projektin ominaisuudet
 
 * Ohjelmointikieli:	C/C++
 * Kirjastot:	SFML multimediakirjasto
@@ -20,7 +20,7 @@ Mukana pelissä olisi myös alkuvalikko, highscoret sekä mahdollisesti muita om
 * Koodirivejä PHP:	~250
 * Koodirivejä yhteensä:	~4000
 
-## 3 Käytännön toteutus
+## 3. Käytännön toteutus
 
 Valitsimme pelin toteuttamista varten pienen mietinnän jälkeen SFML-kirjaston, koska siitä oli molemmilla ryhmän jäsenillä jo hieman aiempaa kokemusta, ja se oli todettu toimivaksi ratkaisuksi.
 
@@ -33,7 +33,7 @@ Hyvin suunniteltu = Puoliksi tehty => Puoliksi tehty = Hyvin suunniteltu
 
 Selkokielellä jos Hyvin suunniteltu on equivelantti Puoliksi tehdyn kanssa, niin sen seurauksena Puoliksi tehty equivelantti Hyvin suunnitellun kanssa.
 
-## 4 Luokat
+## 4. Luokat
 
 ### 4.1 Game
 
@@ -104,6 +104,7 @@ Menu on oikeastaan aika pieni, mutta silti kompleksi luokka.
 Menu-luokka huolehtii päävalikon toiminnasta, versioncheckistä ja osittain myös pelin uudelleenkäynnistämisestä.
 
 Tunnelman luomiseksi menuun on koodattu fade-in ja fade-out efektit, eli menu siis tulee esiin asteittan ja häipyy samalla tavalla.
+
 ### 4.8 Entitymanager
 
 Entitymanager-luokka pitää sisällään entityvektorin ja hallitsee niitä.
@@ -118,7 +119,8 @@ Muita vähäpätöisempiä(kö?) luokkia ovat Tile, Powerup ja Ammopowerup.
 Nämä luokat ovat tietysti tärkeä osa kokonaisuutta, mutta samalla myös tylsiä ja melko tyhjiä, periaatteessa apuluokkia.
 
 Sitten on vielä kaikki resurssimanagerit kuten Texturemanager ja Sfxmanager, joiden tehtävänä on pitää huolta että peli lataa käynnistyessään tarvitut kuvat ja äänet ja pitää ne muistissaan sulkemiseen asti.
-## 5 Tietovarastot
+
+## 5. Tietovarastot
 
 Pelissä käytetyt resurssit (tekstuurit, ääniefektit) ladataan omiin manageriluokkiinsa, joista niitä voidaan hakea ID:n perusteella.
 
@@ -141,7 +143,7 @@ Onko tällainen ajattelutapa sitten olio-ohjelmoinnin kannalta sen parempi tai h
 
 Pelin teossa tavoitteena oli pääasiassa uusien asioiden keksiminen ja kokeileminen ja tässä onnistuttiin mitä loistavimmin.
 
-## 7 Pelistä
+## 7. Pelistä
 
 ### 7.1 Pelikuvaa
 
@@ -165,7 +167,7 @@ Moninpelissä peliin lisätään toinen pelaaja, jota on mahdollista ohjata esim
 
 ![](https://raw.githubusercontent.com/ahvonenj/Softwareproject/master/github_resources/multiplayer.JPG)
 
-## 8 PHP:n käyttö
+## 8. PHP:n käyttö
 
 Softwareproject käyttää muutamaa eri PHP-skriptiä.
 
@@ -181,7 +183,7 @@ Mikäli Softwareproject.exe on vanhentunut sille lähetetään latauslinkki uusi
 
 ![](https://raw.githubusercontent.com/ahvonenj/Softwareproject/master/github_resources/luokkakaavio.png)
 
-## 10 Mainittavia bugeja / ongelmia
+## 10. Mainittavia bugeja / ongelmia
 
 Vaikkakin ohjelmistoprojektissa tulee aina ongelmia ja bugeja vastaan, niin tässä on muutama suurin:
 
@@ -200,7 +202,7 @@ Kiitos Avastin "loistavan" virustentorjunnan, se ei antanut välillä ajaa koko 
 Teemun POST-request kaappaukset ja spooffaus.
 Tämä ongelma johti highscorejemme lähetysten suojaamiseen ylimääräisellä hashilla, jonka luonnin ja ns. purkamisen näkee vain plaintext-lähdekoodista
 
-## 11 Itsearvio
+## 11. Itsearvio
 
 Kaiken kaikkiaan olemme sitä mieltä että peli onnistui hyvin.
 
@@ -214,7 +216,7 @@ Esimerkiksi GitHubin avulla ei tarvitsisi erikseen selvittää mitä muutettiin/
 
 Onneksi peli olikin loppujen lopuksi vain 4000 riviä koodia, ja kahden ohjelmoijan kesken sen manageroimisessa ei esiintynyt huomattavia ongelmia.
 
-## Työnkesto
+## Työn kesto
 
 1,5 kuukautta
 
